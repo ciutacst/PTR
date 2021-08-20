@@ -1,0 +1,11 @@
+{application,backpressure,
+             [{applications,[kernel,stdlib,elixir,logger,jason,ecto_sql,
+                             postgrex]},
+              {description,"backpressure"},
+              {modules,['Elixir.Backpressure',
+                        'Elixir.Backpressure.Application',
+                        'Elixir.Backpressure.Consumer',
+                        'Elixir.Backpressure.Repo','Elixir.Tweet']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Backpressure.Application',[]}}]}.

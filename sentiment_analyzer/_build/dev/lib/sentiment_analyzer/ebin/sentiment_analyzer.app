@@ -1,0 +1,11 @@
+{application,sentiment_analyzer,
+             [{applications,[kernel,stdlib,elixir,logger,jason,poison,oauther,
+                             extwitter,httpoison]},
+              {description,"sentiment_analyzer"},
+              {modules,['Elixir.SentimentAnalyzer.Application',
+                        'Elixir.SentimentAnalyzer.GNLP',
+                        'Elixir.SentimentAnalyzer.Producer',
+                        'Elixir.SentimentAnalyzer.Twitter']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.SentimentAnalyzer.Application',[]}}]}.
